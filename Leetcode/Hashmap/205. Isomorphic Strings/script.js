@@ -19,7 +19,7 @@ function isIsomorphic(s, t) {
             } else {
                 return false;// if the replacement character is already used, return false
             }
-        }  else {
+        } else {
             const mappedCharacter = charMappingMap.get(original);
             // if the mapped character does not match the replacement, return false
             if (mappedCharacter !== replacement){
